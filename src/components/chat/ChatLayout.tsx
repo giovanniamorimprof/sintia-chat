@@ -57,7 +57,7 @@ export const ChatLayout = ({
       return true;
     } catch (error) {
       toast({
-        description: "Failed to send message",
+        description: "Falha ao enviar a mensage",
         variant: "destructive",
       });
       return false;

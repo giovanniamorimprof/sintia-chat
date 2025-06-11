@@ -51,9 +51,9 @@ export const ChatInput = ({
         }
       }
     } catch (err) {
-      console.error('Failed to send message:', err);
+      console.error('Falha ao enviar a mensage:', err);
       toast({
-        description: "Failed to send message",
+        description: "Falha ao enviar a mensage",
         variant: "destructive",
       });
     }

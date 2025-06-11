@@ -118,7 +118,7 @@ export const useMessageSender = (
       return true;
     } catch (error) {
       console.error('Error in webhook request:', error);
-      toast.error("Failed to send message. Please try again.");
+      toast.error("Falha ao enviar a mensage. Please try again.");
       return false;
     } finally {
       setIsLoading(false);
