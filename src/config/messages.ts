@@ -1,1 +1,1 @@
-export const DEFAULT_WELCOME_MESSAGE = "Welcome to the chat!.";
+export const DEFAULT_WELCOME_MESSAGE = "Bem-vindo(a) ao chatbot Sintia!";

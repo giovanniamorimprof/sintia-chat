@@ -25,14 +25,14 @@ console.log('import.meta.env:', {
   VITE_N8N_WEBHOOK_USERNAME: import.meta.env.VITE_N8N_WEBHOOK_USERNAME ? '[CONFIGURED]' : '[NOT SET]',
   VITE_N8N_WEBHOOK_SECRET: import.meta.env.VITE_N8N_WEBHOOK_SECRET ? '[CONFIGURED]' : '[NOT SET]'
 });
-console.log('DEFAULT_WELCOME_MESSAGE:', "Welcome to the chat!.");
+console.log('DEFAULT_WELCOME_MESSAGE:', "Bem-vindo(a) ao chatbot Sintia!.");
 
-const WELCOME_MESSAGE = window.env?.VITE_WELCOME_MESSAGE || import.meta.env.VITE_WELCOME_MESSAGE || "Welcome to the chat!";
+const WELCOME_MESSAGE = window.env?.VITE_WELCOME_MESSAGE || import.meta.env.VITE_WELCOME_MESSAGE || "Bem-vindo(a) ao chatbot Sintia!";
 
 console.log('WELCOME_MESSAGE sources:');
 console.log('- window.env.VITE_WELCOME_MESSAGE:', window.env?.VITE_WELCOME_MESSAGE);
 console.log('- import.meta.env.VITE_WELCOME_MESSAGE:', import.meta.env.VITE_WELCOME_MESSAGE);
-console.log('- DEFAULT_WELCOME_MESSAGE:', "Welcome to the chat!.");
+console.log('- DEFAULT_WELCOME_MESSAGE:', "Bem-vindo(a) ao chatbot Sintia!.");
 console.log('Selected WELCOME_MESSAGE:', WELCOME_MESSAGE);
 
 export const useChatSessions = () => {

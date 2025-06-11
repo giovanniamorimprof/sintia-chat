@@ -74,7 +74,7 @@ export const EditorHeader: React.FC<EditorHeaderProps> = ({
   return (
     <CardTitle className="flex justify-between items-center">
       <div className="flex items-center gap-4">
-        <span className="text-xl font-semibold text-card-foreground">Code Playground</span>
+        {/* <span className="text-xl font-semibold text-card-foreground">Code Playground</span> */}
         <Select value={language} onValueChange={setLanguage}>
           <SelectTrigger className="w-[180px]">
             <SelectValue placeholder="Select language" />
